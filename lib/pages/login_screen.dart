@@ -88,6 +88,14 @@ class _LoginScreenState extends State<LoginScreen> {
                     SizedBox(height: 36.0),
 
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        minimumSize: Size(double.infinity, 50.0),
+                        backgroundColor: Colors.blue,
+                        foregroundColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8.0),
+                        ),
+                      ),
                       onPressed: () {
                         _onSubmit();
                       },
