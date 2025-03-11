@@ -99,7 +99,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       onPressed: () {
                         _onSubmit();
                       },
-                      child: Text("Masuk"),
+                      child: Text("Login"),
                     ),
                   ],
                 ),
