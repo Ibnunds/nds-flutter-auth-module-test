@@ -15,7 +15,7 @@ description: "A new Flutter module project."
 # This version is used _only_ for the Runner app, which is used if you just do
 # a `flutter run` or a `flutter make-host-app-editable`. It has no impact
 # on any other native host app that you embed your Flutter project into.
-version: 1.0.0+1
+version: 1.0.2
 
 environment:
   sdk: ^3.7.0
@@ -73,7 +73,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
-
 
   # This section identifies your Flutter project as a module meant for
   # embedding in a native host app.  These identifiers should _not_ ordinarily
